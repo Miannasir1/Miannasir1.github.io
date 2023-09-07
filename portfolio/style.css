@@ -494,6 +494,14 @@ to {
 margin-left: 0%;
 }
 }
+body footer h1{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+body footer hr{
+    margin-top: 8rem;
+}
 
 @media screen and (max-width:1260px) {
 html {
