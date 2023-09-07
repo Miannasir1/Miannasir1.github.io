@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+*{
+    margin: 0;
+    padding:0%;
+}
+.container{
+    max-width: 80vw;
+}
+.topleft{
+    width: 55%;
+    height: 40vh;
+    
+    
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+    
+}
+.topright img{
+    height: 550px;
+    width: 400px;
+    position: relative;
+    left: 600px;
+    bottom: 460px;
+    
+}
+.section1{
+    height: 60vh;
+}
+.font-style{
+    font-family: 'Tilt Prism', cursive;
+}
+.section1 .dumble img{
+    height: 112px;
+    width: 131px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+.section2{
+    padding-left: 34px;
+    padding-right: 100px;
+    padding: 130px 35px;
+    
+}
+.section3{
+    padding-left: 34px;
+    padding-right: 100px;
+    padding: 46px 0px;
+    
+}
+@media screen and (max-width:600px) {
+    
+}
