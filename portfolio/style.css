@@ -3,7 +3,7 @@
 * {
 width: 100%;
 /* font-family: 'Roboto', sans-serif; */
-font-family: 'Roboto Slab', serif;
+/* font-family: 'Roboto Slab', serif; */
 /* font-family: 'Tilt Prism', cursive; */
 }
 
@@ -26,7 +26,7 @@ padding: 2rem;
 width: 50%;
 font-size: 4rem;
 margin-left: 1.2rem;
-
+margin-bottom: 2rem;
 }
 
 .headright {
@@ -198,6 +198,7 @@ font-size: 2rem;
 text-transform: uppercase;
 text-align: center;
 padding-top: -1rem;
+font-size: 2rem;
 
 }
 
@@ -213,18 +214,18 @@ margin-top: -24rem;
 .section4 .section4left {
 padding-left: 45rem;
 padding-top: 10rem;
-font-size: 1.5rem;
+font-size: 2rem;
 
 
 }
 
 .section4 .section4right {
-width: 20%;
+width: 25%;
 padding-left: 85rem;
 margin-top: -9.5rem;
 line-height: 3.6rem;
 text-align: justify;
-font-size: 1.5rem;
+font-size: 2rem;
 
 
 
@@ -247,25 +248,28 @@ text-transform: uppercase;
 }
 
 .section5 .cl1 {
-border-left: 1px solid #03454e;
-height: 75rem;
-position: absolute;
-left: 50%;
-margin-left: 4.5rem;
-margin-top: -75rem;
+    border-left: 1px solid #03454e;
+    height: 129rem;
+    /* position: absolute; */
+    left: 50%;
+    margin-left: 72.5rem;
+    margin-top: -134rem;
 }
 
 .section5 .section5left {
 padding-left: 45rem;
 margin-top: 5.5rem;
 width: 15%;
+font-size: 2rem;
 }
 
 .section5 .section5right {
-width: 25%;
-padding-left: 85rem;
-margin-top: -70rem;
-text-align: justify;
+    width: 25%;
+    padding-left: 85rem;
+    margin-top: -112rem;
+    text-align: justify;
+    line-height: 4rem;
+    font-size: 2rem;
 
 }
 
@@ -286,17 +290,23 @@ padding-top: 16.5rem;
 font-weight: 900;
 padding-top: 18.5rem;
 }
+.section5 .section5left .year4 {
+margin-top: 23rem;
+}
 
 .section5 .section5right .part1 {
 padding-top: -40.2rem;
+margin-top: -94rem;
 }
 
 .section5 .section5right .part2 {
 padding-top: 11.5rem;
+margin-top: 4rem;
 }
 
 .section5 .section5right .part3 {
 padding-top: 10rem;
+margin-top: -3rem;
 }
 
 .section6 {
@@ -856,6 +866,26 @@ margin-left: -35rem;
 @media screen and (max-width:550px) {
 html {
 font-size: 40.5%;
+}
+}
+@media screen and (max-width:500px) {
+html {
+font-size: 40.5%;
+}
+.section2 .rightsection{
+    width: 30%;
+}
+.section2 .rightsection .title1 h3{
+    margin-bottom: 1rem;
+}
+.section2 .rightsection .detail{
+    margin-left: -2rem;
+}
+.section5 .section5right .part2{
+    margin-top: 4rem;
+}
+.section5 .section5right .part3{
+    margin-top: 2rem;
 }
 }
 
