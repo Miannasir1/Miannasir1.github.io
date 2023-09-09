@@ -8,7 +8,8 @@ width: 100%;
 }
 
 html {
-font-size: 62.5%
+font-size: 62.5%;
+scroll-behavior: smooth;
 }
 
 /* it display when screen is below 650px */
@@ -881,7 +882,7 @@ html {
 font-size: 40.5%;
 }
 .section2 .rightsection{
-    width: 30%;
+    width: auto;
 }
 .section2 .rightsection .title1 h3{
     margin-bottom: 1rem;
@@ -903,6 +904,11 @@ font-size: 40.5%;
         font-size: 32.5%;
         }
     }
+    @media screen and (max-width:414px) {
+        html {
+            font-size: 32.5%;
+            }
+        }
 @media screen and (max-width:395px) {
     html {
         font-size: 29%;
