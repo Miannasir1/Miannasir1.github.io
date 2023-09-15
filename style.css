@@ -1,0 +1,150 @@
+.bg-img{
+    display: flex;
+    justify-content: center;
+    background-image: url("images/background3.jpg");
+    background-repeat: round;
+    padding: 20px;
+}
+.card-body1{
+    background-color: white;
+    height: 339px;
+    padding-left: 20px;
+}
+
+
+
+
+.bg-dark {
+    background-color: aqua;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: rgb(156, 154, 158);
+
+}
+
+.non-border {
+    border: none;
+}
+
+.bg-color {
+    background-color: #1b575f;
+}
+
+.bg-image {
+    background-image: url("images/background3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.bg-image1 {
+    background-image: url("images/background2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.custom-icon {
+    width: 42px;
+}
+
+.social-height {
+    width: 36px;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+
+@media screen and (max-width:425px) {
+    .bg-image {
+        background-image: none;
+    }
+
+    .info {
+        font-size: 12px;
+        /* width: fit-content; */
+    }
+
+    .info-color {
+        color: black;
+    }
+
+
+    .skill-margin {
+        margin-bottom: 1rem;
+    }
+
+    .mailme {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    .info {
+        font-size: 16px;
+    }
+
+    .info-color {
+        color: black;
+    }
+
+    .myImg {
+        width: auto;
+        margin-top: 1rem;
+        /* margin-left: 1rem;             */
+    }
+
+    .social {
+        width: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width:320px) {
+    .info {
+        font-size: 12px;
+    }
+
+    .info-color {
+        color: black;
+    }
+
+    .myImg {
+        width: 85%;
+        margin-top: 1rem;
+        /* margin-left: 1rem;             */
+    }
+
+    .bg-image2 {
+        background-image: none;
+    }
+
+    .logo {
+        margin-top: -2rem;
+    }
+
+    .about {
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width:1024px) {
+    .info1{
+        font-size: 24px;
+    }
+    
+    
+}
